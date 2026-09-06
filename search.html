@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جستجو | MovieLand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        🎬 MovieLand
+    </div>
+
+    <nav>
+        <a href="index.html">خانه</a>
+        <a href="search.html">جستجو</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="section">
+
+    <h1>🔎 جستجوی فیلم و سریال</h1>
+
+    <input
+        id="searchInput"
+        type="text"
+        placeholder="نام فیلم، سریال یا ژانر..."
+        style="
+            width:100%;
+            padding:16px;
+            margin:25px 0;
+            border-radius:8px;
+            border:0;
+            font-size:16px;
+        "
+    >
+
+    <p
+        id="noResults"
+        style="
+            display:none;
+            color:#aaa;
+            margin:20px 0;
+        "
+    >
+        😕 چیزی پیدا نشد.
+    </p>
+
+    <div class="movie-grid">
+
+        <a class="movie-card" href="details.html">
+
+            <div class="poster poster1">
+                🎬
+            </div>
+
+            <div class="movie-info">
+                <h3>فیلم نمونه</h3>
+                <p>2026 | اکشن</p>
+                <span>⭐ 8.7</span>
+            </div>
+
+        </a>
+
+
+        <a class="movie-card" href="details.html">
+
+            <div class="poster poster2">
+                🍿
+            </div>
+
+            <div class="movie-info">
+                <h3>آخرین ماجرا</h3>
+                <p>2025 | ماجراجویی</p>
+                <span>⭐ 9.1</span>
+            </div>
+
+        </a>
+
+
+        <a class="movie-card" href="details.html">
+
+            <div class="poster poster3">
+                🎞️
+            </div>
+
+            <div class="movie-info">
+                <h3>شب تاریک</h3>
+                <p>2025 | ترسناک</p>
+                <span>⭐ 8.4</span>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
